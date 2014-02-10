@@ -12,7 +12,7 @@
 
 <?php 
 // Les images sont dans le dossier image du thème
-$img_url = 'http://test.apdidf.org/wp-content/themes/Tetris_c/images/icone_mission.png';
+$img_url = site_url().'/wp-content/themes/Tetris_c/images/icone_mission.png';
 ?>
 
 
@@ -20,15 +20,15 @@ $img_url = 'http://test.apdidf.org/wp-content/themes/Tetris_c/images/icone_missi
 
 
         <div class="blog-entry-thumbnail">
-            <a href="http://test.apdidf.org/mission/" title="Lien vers la catégorie toute les formations"><img src="<?php echo $img_url; ?>" alt="icone de la catégorie" /></a>
+            <a href="<?php echo site_url(); ?>/mission/" title="Lien vers la catégorie toute les formations"><img src="<?php echo $img_url; ?>" alt="icone de la catégorie" /></a>
             <h2>LES MISSIONS</h2>
         </div><!-- /blog-entry-thumbnail -->
 
     <div class="entry-icone">        
 
         <ul class="entry-meta">
-        	<li><a href="http://test.apdidf.org/mission/" title="Lien vers la catégorie toute les formations">Voir toutes les missions &rarr;</a></li>
-            <li><a href="http://test.apdidf.org/mission/" title="Lien vers la catégorie toute les formations">Proposer un projet &rarr;</a></li>
+        	<li><a href="<?php echo site_url(); ?>/mission/" title="Lien vers la catégorie toute les formations">Voir toutes les missions &rarr;</a></li>
+            <li><a href="<?php echo site_url(); ?>/mission/" title="Lien vers la catégorie toute les formations">Proposer un projet &rarr;</a></li>
         </ul><!-- /entry-meta -->
     </div><!-- /entry-text -->
 </article><!-- /blog-entry -->

@@ -11,9 +11,8 @@
 ?>
 
 <?php 
-// Les images doivent être uploader via l'interface wordpress
-//$img_url = 'http://test.apdidf.org/wp-content/uploads/2014/01/icone_formation2.png';
-$img_url = 'http://test.apdidf.org/wp-content/themes/Tetris_c/images/icone_formation.png';
+// Les images doivent être uploadé via l'interface wordpress
+$img_url = site_url().'/wp-content/themes/Tetris_c/images/icone_formation.png';
 ?>
 
 
@@ -21,14 +20,14 @@ $img_url = 'http://test.apdidf.org/wp-content/themes/Tetris_c/images/icone_forma
 
 
         <div class="blog-entry-thumbnail">
-            <a href="http://test.apdidf.org/formation/" title="Lien vers la catégorie toute les formations"><img src="<?php echo $img_url; ?>" alt="icone de la catégorie" /></a>
+            <a href="<?php echo site_url(); ?>/formation/" title="Lien vers la catégorie toute les formations"><img src="<?php echo $img_url; ?>" alt="icone de la catégorie" /></a>
             <h2>LES FORMATIONS</h2>
         </div><!-- /blog-entry-thumbnail -->
 
     <div class="entry-icone">        
 
         <ul class="entry-meta">
-        	<li><a href="http://test.apdidf.org/formation/" title="Lien vers la catégorie toute les formations">Toutes les formations &rarr;</a></li>
+        	<li><a href="<?php echo site_url(); ?>/formation/" title="Lien vers la catégorie toute les formations">Toutes les formations &rarr;</a></li>
         </ul><!-- /entry-meta -->
     </div><!-- /entry-text -->
 </article><!-- /blog-entry -->
