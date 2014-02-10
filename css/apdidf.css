@@ -1,0 +1,325 @@
+/* Apdidf custom stylesheet
+================================================== */	
+/* pre-header */
+#pre-header {
+    margin : 5px 0 ;
+}
+
+
+
+
+/* Modification de l'affichage de l'article - single.php)*/
+.ap_post_pourvu{
+    background: none repeat scroll 0 0 #F7803C;
+    border: medium none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 0.857em;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    outline: medium none;
+    padding: 0 15px;
+    margin-top: 15px;
+    position: relative;
+}
+
+article.category-animateurs div.entry-text{
+    margin:0;
+    padding:0 5px;
+}
+
+article.category-animateurs ul.entry-meta{
+    margin:0;
+    padding:0;
+}
+
+.display_line {
+    background: url("../images/heading-bg.png") repeat-x scroll center center rgba(0, 0, 0, 0);
+}
+
+.display_line .heading {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding-right: 15px;
+}
+
+
+.single-post .meta {
+	font-weight: 300;
+	font-size: 0.929em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.single-post .meta a {
+	color: #999;
+}
+
+.single-post .meta a:hover {
+	color: #000;
+}
+
+.single-post .meta li {
+	display: inline;
+	margin-right: 5px;
+	margin-right: 10px;
+}
+
+.single-post .meta strong{
+	font-weight: 600;
+	color: #111;
+}
+
+.single-post .meta li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	background: none;
+}
+
+
+
+/* Surcharge de la page d'accueil pour 4 ou 5 articles */
+
+/* 4 articles = 4rows */
+
+.blog-isotope {
+	margin-right: -30px;
+	margin-bottom: -30px;
+}
+
+
+.blog-entry.rows4{
+	overflow: hidden;
+	background: #fff;
+	float: left;
+	width: 225px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	font-size: 1em;
+}
+.blog-entry .entry-text {
+	padding: 20px;
+}
+
+.blog-entry.rows5{
+	overflow: hidden;
+	background: #fff;
+	float: left;
+	width: 180px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	font-size: 1em;
+}
+
+
+/* surcharge les styles pour les deux icones de catégories : */
+
+.blog-entry.mission, .blog-entry.formation {
+
+}
+
+.entry-meta.short {
+    padding-top: 5px;
+}
+
+.entry-meta.shorter {
+    margin-top: 5px; 
+    padding-top: 5px;    
+}
+
+.entry-button {
+    margin-top: 10px;    
+}
+
+/* couleur des blocs formation - #0197fd */ 
+
+.type-formations h2 a, .type-formations .entry-meta strong {
+color:#0197fd;
+}
+
+.type-formations h2 a:hover, .type-formations .entry-meta a{
+color:#666666;
+}
+
+
+/* couleur des blocs mission - #32d052 */ 
+
+
+.type-missions h2 a, .type-missions .entry-meta strong {
+color:#32d052;
+}
+
+.type-missions h2 a:hover, .type-missions .entry-meta a{
+color:#666666;
+}
+
+/*Bouton postuler en front page*/
+
+.ap_postuler {
+    background: url("../images/mini_icone_mission.png") no-repeat 10px 5px #32d052;
+    border: medium none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 0.857em;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    outline: medium none;
+    padding: 0 15px 0 40px;
+    position: relative;
+}
+
+.type-missions .ap_postuler {
+    background: url("../images/mini_icone_mission.svg") no-repeat 10px 7px #32d052;
+}
+    
+.type-formations .ap_postuler {
+    background: url("../images/mini_icone_formation.svg") no-repeat 10px 7px #0197fd;
+}
+
+.ap_postuler:hover {    
+	background: #111;
+	color: #fff;
+}
+
+.ap_pourvu {
+    background: none repeat scroll 0 0 #111;
+    border: medium none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 0.857em;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    outline: medium none;
+    padding: 0 15px;
+    position: relative;
+
+}
+
+.ap_pourvu:hover {    
+	background: #111;
+	color: #fff;
+}
+
+
+
+
+/*  bloc icones LES FORMATIONS LES MISSIONS*/
+.blog-entry.formation h2, .blog-entry.outils h2, .blog-entry.sites h2 {
+color:#0197fd;
+text-align: center;
+}
+
+
+.blog-entry.mission h2{
+color:#32d052;
+text-align: center;
+}
+
+.entry-icone {
+	padding: 0 20px 10px;
+    margin: 0;
+}
+
+.entry-icone ul.entry-meta {
+	padding: 10px 0 0;
+    margin: 0;
+}
+
+.blog-entry.formation .entry-icone ul li a {
+color:#0197fd;
+}
+
+.blog-entry.mission .entry-icone ul li a {
+color:#32d052;
+}
+
+
+/* bloc outils */
+.blog-entry-links, .blog-entry-sites {
+margin : 20px 0 0;
+}
+
+.outil_lien, .sites_lien {
+    background: #32d052;
+    border: medium none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 0.857em;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    outline: medium none;
+    margin : 2px 5px;
+    padding: 0 15px 0 40px;
+    position: relative;
+}
+
+.outil_lien.permanents {
+    background-color: #019FF4;
+}
+
+.outil_lien.anims {
+    background-color: #F46701;
+}
+
+.outil_lien.dnet {
+    background-color: #EDDE45;
+}
+
+.outil_lien.doc {
+background: url("../images/mini_icone_document.svg") no-repeat 10px 5px #0197fd;
+}
+
+.outil_lien.cr {
+background: url("../images/mini_icone_cr.svg") no-repeat 10px 5px #F46701;
+}
+
+.outil_lien.pers {
+background: url("../images/mini_icone_pers.svg") no-repeat 10px 5px #EDDE45;
+}
+
+.outil_lien.mail {
+background: url("../images/mini_icone_mail.svg") no-repeat 10px 5px #32d052;
+}
+
+.outil_lien.cal {
+background: url("../images/mini_icone_cal.svg") no-repeat 10px 5px #bf0413;
+}
+
+a.outil_lien:hover {
+color: #666;
+}
+
+/* Icones des sites */
+.site_lien.lst {
+    background: url("../images/icone_lst.png") no-repeat 10px 5px #999;
+    float: left;
+    border: medium none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 0.857em;
+    font-weight: 400;
+    height: 60px;
+    line-height: 60px;
+    width:60px
+    outline: medium none;
+    margin : 2px 5px;
+    padding: 0 15px 0 40px;
+    position: relative;
+}
+
+
