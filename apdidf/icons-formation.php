@@ -12,7 +12,7 @@
 
 <?php 
 // Les images doivent être uploadé via l'interface wordpress
-$img_url = site_url().'/wp-content/themes/Tetris_c/images/icone_formation.png';
+$img_url = site_url().'/wp-content/themes/apdidf/images/icone_formation.png';
 ?>
 
 

@@ -12,7 +12,7 @@
 
 <?php 
 // Les images sont dans le dossier image du thème
-$img_url = site_url().'/wp-content/themes/Tetris_c/images/icone_mission.png';
+$img_url = site_url().'/wp-content/themes/apdidf/images/icone_mission.png';
 ?>
 
 

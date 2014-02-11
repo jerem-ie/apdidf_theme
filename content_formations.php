@@ -26,7 +26,7 @@ $meta_date = date_i18n(get_option('date_format') ,strtotime($meta_date));
 	// Show Featured Image
 	if( has_post_thumbnail() ) {  ?>
 	<div class="blog-entry-thumbnail">
-		<a href="<?php echo wp_get_attachment_url( get_post_thumbnail_id(), 'full' ); ?>" title="<?php the_title(); ?>" class="prettyphoto-link"><img src="<?php echo aq_resize( wp_get_attachment_url( get_post_thumbnail_id(), 'full' ),  wpex_img( 'blog_entry_width' ), wpex_img( 'blog_entry_height' ), wpex_img( 'blog_entry_crop' ) ); ?>" alt="<?php echo the_title(); ?>" /></a>
+		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php echo aq_resize( wp_get_attachment_url( get_post_thumbnail_id(), 'full' ),  wpex_img( 'blog_entry_width' ), wpex_img( 'blog_entry_height' ), wpex_img( 'blog_entry_crop' ) ); ?>" alt="<?php echo the_title(); ?>" /></a>
 	</div><!-- /blog-entry-thumbnail -->
     <?php } ?>
     <div class="entry-text clearfix">
