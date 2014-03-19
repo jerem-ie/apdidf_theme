@@ -5,7 +5,9 @@
     margin : 5px 0 ;
 }
 
-
+.no-margin {
+    margin : 0 !important; 
+}
 
 
 /* Modification de l'affichage de l'article - single.php)*/
@@ -320,6 +322,18 @@ color: #666;
     margin : 2px 5px;
     padding: 0 15px 0 40px;
     position: relative;
+}
+
+/* Login des animateurs */
+h2.login-memo {
+    padding: 20px;
+    background: #F46701;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.857em;   
+    border-radius: 2px;
+    color: #FFFFFF;    
 }
 
 

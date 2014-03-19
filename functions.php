@@ -18,6 +18,18 @@
 define( 'WPEX_JS_DIR', get_template_directory_uri().'/js' );
 define( 'WPEX_CSS_DIR', get_template_directory_uri().'/css' );
 
+
+/* adding svg upload on media library */
+    function custom_mtypes( $m ){
+        $m['svg'] = 'image/svg+xml';
+        $m['svgz'] = 'image/svg+xml';
+        return $m;
+    }
+    add_filter( 'upload_mimes', 'custom_mtypes' );
+
+
+
+
 /*
  * Helper function to return the theme option value. If no value has been saved, it returns $default.
  * Needed because options are saved as serialized strings.

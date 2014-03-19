@@ -71,6 +71,10 @@ function wpex_load_scripts() {
 	// Initialize
 	wp_enqueue_script('wpex-global-init', WPEX_JS_DIR .'/initialize.js', false, '1.0', true);
 
-	
+	// Ubuntu Web app
+        wp_enqueue_script('ubuntu.webapp', WPEX_JS_DIR .'/ubuntu.webapp.js', false, '0.11', true);
+        
+        
+        
 } //end wpex_load_scripts()
 ?>

@@ -124,7 +124,7 @@
         
         // show "connectez vous !" ou les outils.
         if (! is_user_logged_in()) : ?>
-            <h2 id="homepage-title"><span><a href="<?php echo wp_login_url( home_url() ); ?>" title="Login">Connectez vous pour accéder à l'ensemble des outils...</a></span></h2>
+            <h2 class="login-memo"><span><a href="<?php echo wp_login_url( home_url() ); ?>" title="Login">Connectez vous pour accéder à l'ensemble des outils...</a></span></h2>
         <?php endif ;
 
         
