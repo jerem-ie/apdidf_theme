@@ -6,6 +6,7 @@ Ce thème est adapté pour un usage de type portail associatif,
 avec 3 types d'articles spécifiques : misison, outils et formation.
 
 Il est dérivé du thème tetris, dont les détails sont fournis ci-dessous.
+et voila !
 
 ========================================
 = Theme created by AJ Clarke from WPExplorer.com
